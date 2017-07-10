@@ -32,6 +32,13 @@ body{
   margin: 0 auto;
 }
 
+@mixin SlideShow{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: rem-calc(700);
+}
+
 .primaryButton{
   border-radius:1.3125rem;
   background-color: $primary-color-two;

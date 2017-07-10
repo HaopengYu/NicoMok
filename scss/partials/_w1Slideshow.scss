@@ -1,0 +1,25 @@
+.w1Slideshow{
+  max-height: 23.5625rem;
+  margin-bottom: $marginTop;
+  .column{
+    padding:0!important;
+  }
+  .slickContainer{
+    .slide1{
+      @include SlideShow;
+      background-image: url(../img/placeholder.jpg);
+    }
+    .slide2{
+      @include SlideShow;
+      background-image: url(../img/placeholder2.jpg);
+    }
+    .slide3{
+      @include SlideShow;
+      background-image: url(../img/placeholder3.jpg);
+    }
+  }
+  .slick-prev,
+  .slick-next {
+    display: none!important;
+  }
+}

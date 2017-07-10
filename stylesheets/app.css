@@ -14959,7 +14959,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* line 35, ../scss/partials/_base.scss */
+/* line 42, ../scss/partials/_base.scss */
 .primaryButton {
   border-radius: 1.3125rem;
   background-color: #7ad4d4;
@@ -14989,4 +14989,43 @@ footer ul.socialMedia li {
 /* line 20, ../scss/partials/_footer.scss */
 footer ul.socialMedia li:nth-of-type(1) {
   margin-left: 0.5rem;
+}
+
+/* line 1, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow {
+  max-height: 23.5625rem;
+  margin-bottom: 2rem;
+}
+/* line 4, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .column {
+  padding: 0 !important;
+}
+/* line 8, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer .slide1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43.75rem;
+  background-image: url(../img/placeholder.jpg);
+}
+/* line 12, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer .slide2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43.75rem;
+  background-image: url(../img/placeholder2.jpg);
+}
+/* line 16, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer .slide3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43.75rem;
+  background-image: url(../img/placeholder3.jpg);
+}
+/* line 21, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slick-prev,
+.w1Slideshow .slick-next {
+  display: none !important;
 }
