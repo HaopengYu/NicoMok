@@ -5,6 +5,37 @@
     padding:0!important;
   }
   .slickContainer{
+    position: relative;
+    h1{
+      color: $white;
+      margin-top: 8rem;
+      font-size: rem-calc(70);
+      text-shadow: 1px 1px 1px $white;
+      @media #{$small-only}{
+        font-size: rem-calc(50);
+      }
+      /* &:after{
+        @include HrLine;
+        margin: 0 auto;
+        border-color: $white;
+        margin-top: 2rem;
+      }*/
+      &:after{
+        background-image: url(../img/placeholder3.jpg);
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 5%;
+        content: "";
+        left: 2%;
+      }
+    }
+    a{
+      @media #{$small-only}{
+        margin-top: $marginTop;
+      }
+      margin-top: 3rem;
+    }
     .slide1{
       @include SlideShow;
       background-image: url(../img/placeholder2.jpg);
@@ -17,6 +48,7 @@
       @include SlideShow;
       background-image: url(../img/placeholder3.jpg);
     }
+
   }
   .slick-prev,
   .slick-next {

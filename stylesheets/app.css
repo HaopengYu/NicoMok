@@ -15007,7 +15007,50 @@ footer ul.socialMedia li:nth-of-type(1) {
 .w1Slideshow .column {
   padding: 0 !important;
 }
-/* line 8, ../scss/partials/_w1Slideshow.scss */
+/* line 7, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer {
+  position: relative;
+}
+/* line 9, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer h1 {
+  color: #FFFFFF;
+  margin-top: 8rem;
+  font-size: 4.375rem;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  /* &:after{
+    @include HrLine;
+    margin: 0 auto;
+    border-color: $white;
+    margin-top: 2rem;
+  }*/
+}
+@media only screen and (max-width: 40em) {
+  /* line 9, ../scss/partials/_w1Slideshow.scss */
+  .w1Slideshow .slickContainer h1 {
+    font-size: 3.125rem;
+  }
+}
+/* line 23, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer h1:after {
+  background-image: url(../img/placeholder3.jpg);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 5%;
+  content: "";
+  left: 2%;
+}
+/* line 33, ../scss/partials/_w1Slideshow.scss */
+.w1Slideshow .slickContainer a {
+  margin-top: 3rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 33, ../scss/partials/_w1Slideshow.scss */
+  .w1Slideshow .slickContainer a {
+    margin-top: 2rem;
+  }
+}
+/* line 39, ../scss/partials/_w1Slideshow.scss */
 .w1Slideshow .slickContainer .slide1 {
   background-position: center;
   background-repeat: no-repeat;
@@ -15015,7 +15058,7 @@ footer ul.socialMedia li:nth-of-type(1) {
   height: 43.75rem;
   background-image: url(../img/placeholder2.jpg);
 }
-/* line 12, ../scss/partials/_w1Slideshow.scss */
+/* line 43, ../scss/partials/_w1Slideshow.scss */
 .w1Slideshow .slickContainer .slide2 {
   background-position: center;
   background-repeat: no-repeat;
@@ -15023,7 +15066,7 @@ footer ul.socialMedia li:nth-of-type(1) {
   height: 43.75rem;
   background-image: url(../img/placeholder.jpg);
 }
-/* line 16, ../scss/partials/_w1Slideshow.scss */
+/* line 47, ../scss/partials/_w1Slideshow.scss */
 .w1Slideshow .slickContainer .slide3 {
   background-position: center;
   background-repeat: no-repeat;
@@ -15031,7 +15074,7 @@ footer ul.socialMedia li:nth-of-type(1) {
   height: 43.75rem;
   background-image: url(../img/placeholder3.jpg);
 }
-/* line 21, ../scss/partials/_w1Slideshow.scss */
+/* line 53, ../scss/partials/_w1Slideshow.scss */
 .w1Slideshow .slick-prev,
 .w1Slideshow .slick-next {
   display: none !important;
@@ -15084,7 +15127,13 @@ footer ul.socialMedia li:nth-of-type(1) {
   height: 21.25rem;
   margin-bottom: 2rem;
 }
-/* line 8, ../scss/partials/_w4Items.scss */
+@media only screen and (max-width: 40em) {
+  /* line 4, ../scss/partials/_w4Items.scss */
+  .w4Items .productItem {
+    margin-bottom: 11rem;
+  }
+}
+/* line 11, ../scss/partials/_w4Items.scss */
 .w4Items .productItem .contentImage {
   height: 21.25rem;
   position: absolute;
@@ -15092,14 +15141,14 @@ footer ul.socialMedia li:nth-of-type(1) {
   overflow: hidden;
 }
 @media only screen and (max-width: 40em) {
-  /* line 8, ../scss/partials/_w4Items.scss */
+  /* line 11, ../scss/partials/_w4Items.scss */
   .w4Items .productItem .contentImage {
     height: auto;
     position: relative;
     width: 100%;
   }
 }
-/* line 19, ../scss/partials/_w4Items.scss */
+/* line 22, ../scss/partials/_w4Items.scss */
 .w4Items .productItem .contentImageR {
   position: absolute;
   overflow: hidden;
@@ -15108,14 +15157,15 @@ footer ul.socialMedia li:nth-of-type(1) {
   width: 50%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 19, ../scss/partials/_w4Items.scss */
+  /* line 22, ../scss/partials/_w4Items.scss */
   .w4Items .productItem .contentImageR {
     height: auto;
-    position: relative;
+    position: absolute;
     width: 100%;
+    top: 0;
   }
 }
-/* line 31, ../scss/partials/_w4Items.scss */
+/* line 35, ../scss/partials/_w4Items.scss */
 .w4Items .productItem .contentText {
   position: absolute;
   padding: 1rem;
@@ -15125,14 +15175,14 @@ footer ul.socialMedia li:nth-of-type(1) {
   width: 50%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 31, ../scss/partials/_w4Items.scss */
+  /* line 35, ../scss/partials/_w4Items.scss */
   .w4Items .productItem .contentText {
     height: auto;
     position: relative;
     width: 100%;
   }
 }
-/* line 44, ../scss/partials/_w4Items.scss */
+/* line 48, ../scss/partials/_w4Items.scss */
 .w4Items .productItem .contentTextL {
   padding: 1rem;
   background-color: #F9F9F9;
@@ -15141,11 +15191,13 @@ footer ul.socialMedia li:nth-of-type(1) {
   width: 37.5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 44, ../scss/partials/_w4Items.scss */
+  /* line 48, ../scss/partials/_w4Items.scss */
   .w4Items .productItem .contentTextL {
     height: auto;
     position: relative;
     width: 100%;
+    z-index: 1;
+    top: 289px;
   }
 }
 

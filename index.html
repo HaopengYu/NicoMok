@@ -38,15 +38,15 @@
             <div class="testSlider">
               <div class="slide1">
                 <h1>Nico Mok</h1>
-                <a href="#" class="button">Button 1 </a>
+                <a href="#" class="button">Other projects </a>
               </div>
               <div class="slide2">
-                <h1>Nico Mok2</h1>
-                <a href="#" class="button">Button 2</a>
+                <h1>Digitale Media en Communicatie</h1>
+                <a href="#" class="button">Updates</a>
               </div>
               <div class="slide3">
-                <h1>Nico Mok3 </h1>
-                <a href="#" class="button">Button 3</a>
+                <h1>Nico Mok</h1>
+                <a href="#" class="button">Leave feedback</a>
               </div>
             </div>
           </div>
@@ -161,33 +161,10 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript">
     $('.testSlider').slick({
-
       // normal options...
       infinite: true,
-
-      // the magic
-      responsive: [{
-
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            infinite: true
-          }
-
-        }, {
-
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            dots: true
-          }
-
-        }, {
-
-          breakpoint: 300,
-          settings: "unslick" // destroys slick
-
-        }]
+      fade:true,
+      autoplay:true
     });
     </script>
   </body>
