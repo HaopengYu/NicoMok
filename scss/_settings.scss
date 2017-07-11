@@ -87,15 +87,15 @@ $row-width: rem-calc(1200);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Sansita:700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Open+Sans:400,700');
 
 // Variables Google Fonts
-$oxygenFont: 'Oxygen', sans-serif;
-$sansitaFont: 'Sansita', serif;
+$opensansFont: 'OpenSans', sans-serif;
+$josefinFont: 'Josefin Sans', serif;
 
 // We use these to define default font stacks
-$font-family-sans-serif: $oxygenFont;
-$font-family-serif: $sansitaFont;
+$font-family-sans-serif: $opensansFont;
+$font-family-serif: $josefinFont;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
@@ -154,7 +154,7 @@ $secondary-color: $primary-color-two;
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
-$body-font-family: $oxygenFont;
+$body-font-family: $opensansFont;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -238,7 +238,7 @@ $large: $large-up;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-$header-font-family: $sansitaFont;
+$header-font-family: $josefinFont;
 $header-font-weight: $font-weight-bold;
 // $header-font-style: normal;
 // $header-font-color: $jet;
