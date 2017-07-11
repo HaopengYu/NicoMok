@@ -1,0 +1,58 @@
+.w4Items{
+  margin-top: $marginTop;
+  margin-bottom: $marginTop;
+  .productItem{
+    position: relative;
+    height: 21.25rem;
+    margin-bottom: $marginTop;
+    .contentImage{
+      height: 21.25rem;
+      position: absolute;
+      width: 37.5rem;
+      overflow: hidden;
+      @media #{$small-only}{
+        height: auto;
+        position: relative;
+        width: 100%;
+      }
+    }
+    .contentImageR{
+      position: absolute;
+      overflow: hidden;
+      right: 0;
+      height: 21.25rem;
+      width: 50%;
+      @media #{$small-only}{
+        height: auto;
+        position: relative;
+        width: 100%;
+      }
+    }
+    .contentText{
+      position: absolute;
+      padding: 1rem;
+      background-color: $snow;
+      right: 0;
+      height: 21.25rem;
+      width: 50%;
+      @media #{$small-only}{
+        height: auto;
+        position: relative;
+        width: 100%;
+      }
+    }
+    .contentTextL{
+      padding: 1rem;
+      background-color: $snow;
+      height: 21.25rem;
+      position: absolute;
+      width: 37.5rem;
+
+      @media #{$small-only}{
+        height: auto;
+        position: relative;
+        width: 100%;
+      }
+    }
+  }
+}

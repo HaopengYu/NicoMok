@@ -7,11 +7,11 @@
   .slickContainer{
     .slide1{
       @include SlideShow;
-      background-image: url(../img/placeholder.jpg);
+      background-image: url(../img/placeholder2.jpg);
     }
     .slide2{
       @include SlideShow;
-      background-image: url(../img/placeholder2.jpg);
+      background-image: url(../img/placeholder.jpg);
     }
     .slide3{
       @include SlideShow;
