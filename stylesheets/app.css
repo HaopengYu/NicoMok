@@ -6189,6 +6189,8 @@ label.error {
 .joyride-tip-guide h1,
 .joyride-tip-guide h2,
 .joyride-tip-guide h3,
+.joyride-tip-guide footer h1,
+footer .joyride-tip-guide h1,
 .joyride-tip-guide .w5Banner p,
 .w5Banner .joyride-tip-guide p,
 .joyride-tip-guide h4,
@@ -6819,16 +6821,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel .w5Banner p, .w5Banner .panel p, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+.panel h1, .panel h2, .panel h3, .panel footer h1, footer .panel h1, .panel .w5Banner p, .w5Banner .panel p, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h2, .panel h3, .panel .w5Banner p, .w5Banner .panel p, .panel h4, .panel h5, .panel h6 {
+.panel h1, .panel h2, .panel h3, .panel footer h1, footer .panel h1, .panel .w5Banner p, .w5Banner .panel p, .panel h4, .panel h5, .panel h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel .w5Banner p.subheader, .w5Banner .panel p.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel footer h1.subheader, footer .panel h1.subheader, .panel .w5Banner p.subheader, .w5Banner .panel p.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
   line-height: 1.4;
 }
 /* line 88, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6850,16 +6852,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout .w5Banner p, .w5Banner .panel.callout p, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout footer h1, footer .panel.callout h1, .panel.callout .w5Banner p, .w5Banner .panel.callout p, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout .w5Banner p, .w5Banner .panel.callout p, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout footer h1, footer .panel.callout h1, .panel.callout .w5Banner p, .w5Banner .panel.callout p, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout .w5Banner p.subheader, .w5Banner .panel.callout p.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout footer h1.subheader, footer .panel.callout h1.subheader, .panel.callout .w5Banner p.subheader, .w5Banner .panel.callout p.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
   line-height: 1.4;
 }
 /* line 90, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -8131,13 +8133,13 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 /* line 214, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name .w5Banner p, .w5Banner .top-bar .name p, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name footer h1, footer .top-bar .name h1, .top-bar .name .w5Banner p, .w5Banner .top-bar .name p, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
   font-size: 1.0625rem;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name .w5Banner p a, .w5Banner .top-bar .name p a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name footer h1 a, footer .top-bar .name h1 a, .top-bar .name .w5Banner p a, .w5Banner .top-bar .name p a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   color: #222222;
   display: block;
   font-weight: normal;
@@ -8586,6 +8588,8 @@ meta.foundation-mq-topbar {
   .top-bar .name h1 a,
   .top-bar .name h2 a,
   .top-bar .name h3 a,
+  .top-bar .name footer h1 a,
+  footer .top-bar .name h1 a,
   .top-bar .name .w5Banner p a,
   .w5Banner .top-bar .name p a,
   .top-bar .name h4 a,
@@ -9072,6 +9076,7 @@ li,
 h1,
 h2,
 h3,
+footer h1,
 .w5Banner p,
 h4,
 h5,
@@ -9126,7 +9131,7 @@ p aside {
 
 /* Default header styles */
 /* line 255, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1, h2, h3, .w5Banner p, h4, h5, h6 {
+h1, h2, h3, footer h1, .w5Banner p, h4, h5, h6 {
   color: #222222;
   font-family: "Josefin Sans", serif;
   font-style: normal;
@@ -9137,7 +9142,7 @@ h1, h2, h3, .w5Banner p, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 /* line 265, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1 small, h2 small, h3 small, .w5Banner p small, h4 small, h5 small, h6 small {
+h1 small, h2 small, h3 small, footer h1 small, .w5Banner p small, h4 small, h5 small, h6 small {
   color: #6f6f6f;
   font-size: 60%;
   line-height: 0;
@@ -9154,7 +9159,7 @@ h2 {
 }
 
 /* line 274, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h3, .w5Banner p {
+h3, footer h1, .w5Banner p {
   font-size: 1.375rem;
 }
 
@@ -9387,7 +9392,7 @@ blockquote p {
 
 @media only screen and (min-width: 40.0625em) {
   /* line 461, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h1, h2, h3, .w5Banner p, h4, h5, h6 {
+  h1, h2, h3, footer h1, .w5Banner p, h4, h5, h6 {
     line-height: 1.4;
   }
 
@@ -9402,7 +9407,7 @@ blockquote p {
   }
 
   /* line 464, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h3, .w5Banner p {
+  h3, footer h1, .w5Banner p {
     font-size: 1.6875rem;
   }
 
@@ -9491,6 +9496,7 @@ blockquote p {
   p,
   h2,
   h3,
+  footer h1,
   .w5Banner p {
     orphans: 3;
     widows: 3;
@@ -9499,6 +9505,7 @@ blockquote p {
   /* line 519, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2,
   h3,
+  footer h1,
   .w5Banner p {
     page-break-after: avoid;
   }
@@ -9546,14 +9553,14 @@ blockquote p {
   position: relative;
 }
 /* line 185, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar .w5Banner p, .w5Banner .tab-bar p, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar footer h1, footer .tab-bar h1, .tab-bar .w5Banner p, .w5Banner .tab-bar p, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
   font-weight: bold;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 191, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar .w5Banner p, .w5Banner .tab-bar p, .tab-bar h4 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar footer h1, footer .tab-bar h1, .tab-bar .w5Banner p, .w5Banner .tab-bar p, .tab-bar h4 {
   font-size: 1.125rem;
 }
 
@@ -14974,28 +14981,29 @@ body {
   box-shadow: 0px 5px 5px rgba(217, 104, 132, 0.2);
 }
 
-/* line 2, ../scss/partials/_footer.scss */
-footer .smallFooter {
-  border-top: 1px solid #04bfbf;
-  height: 6.25rem;
+/* line 1, ../scss/partials/_footer.scss */
+footer {
+  background-color: #FAFAFA;
   padding-top: 1rem;
 }
 /* line 7, ../scss/partials/_footer.scss */
-footer .smallFooter .disclaimerContent a {
-  display: inline-block;
+footer a {
+  color: #222222;
 }
-/* line 14, ../scss/partials/_footer.scss */
-footer ul.socialMedia {
-  list-style: none;
+/* line 10, ../scss/partials/_footer.scss */
+footer i {
+  margin-right: 0.5678rem;
+}
+/* line 13, ../scss/partials/_footer.scss */
+footer .footerSocialMedia {
+  /* border-top: 1px solid $primary-color; */
+  padding-bottom: 2rem;
 }
 /* line 16, ../scss/partials/_footer.scss */
-footer ul.socialMedia li {
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-/* line 20, ../scss/partials/_footer.scss */
-footer ul.socialMedia li:nth-of-type(1) {
-  margin-left: 0.5rem;
+footer .footerSocialMedia a {
+  font-size: 1.5625rem;
+  color: #04bfbf;
+  margin: 0 1rem 0 1rem;
 }
 
 /* line 1, ../scss/partials/_w1Slideshow.scss */
@@ -15107,7 +15115,7 @@ footer ul.socialMedia li:nth-of-type(1) {
 }
 @media only screen and (max-width: 40em) {
   /* line 19, ../scss/partials/_w3Facts.scss */
-  .w3Facts h3, .w3Facts .w5Banner p, .w5Banner .w3Facts p {
+  .w3Facts h3, .w3Facts footer h1, footer .w3Facts h1, .w3Facts .w5Banner p, .w5Banner .w3Facts p {
     margin-bottom: 1rem;
   }
 }
