@@ -1,8 +1,7 @@
 .w3Facts{
   margin-top: $marginTop;
-  background-image: url(../img/placeholder2.jpg);
+  background-image: url(../img/longbanner1.jpg);
   background-repeat: no-repeat;
-  background-position: left;
   height: rem-calc(280);
   @media #{$small-only}{
     height: auto;

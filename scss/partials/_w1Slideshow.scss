@@ -10,7 +10,7 @@
       color: $white;
       margin-top: 8rem;
       font-size: rem-calc(70);
-      text-shadow: 1px 1px 1px $white;
+      text-shadow: 1px 1px 1px #222;
       @media #{$small-only}{
         font-size: rem-calc(50);
       }
@@ -30,6 +30,11 @@
         left: 2%;
       }
     }
+    h2{
+      @extend h3;
+      color:$white;
+      text-shadow: 1px 1px 1px #222;
+    }
     a{
       @media #{$small-only}{
         margin-top: $marginTop;
@@ -38,15 +43,42 @@
     }
     .slide1{
       @include SlideShow;
-      background-image: url(../img/placeholder2.jpg);
+      background-image: url(../img/nicomokslider3.jpg);
+      @media #{$small-only}{
+        background-position-x: -305px;
+      }
+      @media #{$xlarge-only}{
+        background-position-y: -280px;
+      }
+      @media #{$xxlarge-only}{
+        background-position-y: -430px;
+      }
     }
     .slide2{
       @include SlideShow;
-      background-image: url(../img/placeholder.jpg);
+      background-image: url(../img/nicomokslider1.jpg);
+      @media #{$small-only}{
+        background-position-x: -78px;
+      }
+      @media #{$xlarge-only}{
+        background-position-y: -165px;
+      }
+      @media #{$xxlarge-only}{
+        background-position-y: -165px;
+      }
     }
     .slide3{
       @include SlideShow;
-      background-image: url(../img/placeholder3.jpg);
+      background-image: url(../img/nicomokslider4.jpg);
+      @media #{$small-only}{
+        background-position-x: -179px;
+      }
+      @media #{$xlarge-only}{
+        background-position-y: -3px;
+      }
+      @media #{$xxlarge-only}{
+        background-position-y: -5px;
+      }
     }
 
   }
